@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ @media (max-width:767px){ 
+.woocommerce-page.columns-2 ul.products li.product, .woocommerce.columns-2 ul.products li.product,
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product,
+.woocommerce-page.columns-4 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+    width: 49%!important;
+}
+}
+@media (max-width:450px){ 
+.woocommerce-page.columns-2 ul.products li.product, .woocommerce.columns-2 ul.products li.product,
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product,
+.woocommerce-page.columns-4 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+    width: 100%!important;
+}
+}
+
